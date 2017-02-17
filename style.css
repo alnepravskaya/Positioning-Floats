@@ -1,0 +1,153 @@
+
+body{
+	height: 2000px;position: relative;
+	padding-top: 120px;
+	font-family: PT Sans, sans-serif;
+}
+.wrapper{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 563px;
+}
+.layer{
+	height: 750px;
+	width: 523px;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	margin: 0;
+	position: absolute;
+	padding: 30px;
+	font-size: 14px;
+}
+.mark{
+	height: 35px;
+	width: 111px;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	border-radius: 0 9px 9px  0 ;
+	position: absolute;
+
+}
+.third{
+	background: #ACACAC;
+	margin:39px  0 0 25px;
+	top:39px;
+	left: 25px;
+}
+.third .mark{
+	background: #00AEEF;
+	right: -18px;
+	top: 46px;
+
+}
+
+.second{
+	background: #CCCCCC;
+	top: 58px;
+	left: 32px;
+}
+.second .mark{
+    background: #39B54A;
+	top: 41px;
+	right: -50px;
+}
+.first{
+	background: #EBEBEB;
+	top: 39px;
+	left: 11px;
+}
+.first .mark{
+	background: #F68E56;
+	top: 37px;
+	right: -83px;
+}
+.first h2{
+	margin: 2px 0 13px 0;
+	letter-spacing: 0.2px;
+	font-weight: 500;
+	font-size: 23px;
+}
+
+.joke img{
+	display: inline-block;
+}
+.first .context img{
+	margin: 8px 22px;
+}
+.first .context .left{
+	float: left;
+	margin-top:1px;
+	margin-left: 0;
+}
+.first .context{
+	font-size: 12px;
+	line-height: 14px;
+}
+.first .context .rigth{
+	float: right;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 4px;
+}
+.first h6{
+	font-size: 17px;
+	color: #333333;
+	margin: 36px 0 0 0;
+	font-weight: 100;
+}
+.first .joke{
+	margin-top: 19px;
+}
+.first .joke img{
+	margin-bottom: 14px;
+}
+.first .joke img:nth-child(odd){
+	float: left;
+}
+.first .joke img:nth-child(even){
+	float: right;
+}
+.first .footer{
+	clear: left;
+	font-size: 9px;
+	line-height: 12px;
+	padding-top: 12px;
+	text-align: center;
+}
+.share {
+	box-sizing: border-box;
+	background: #FBAF5D;
+	border:1px solid #000;
+	width: 88px;
+	height: 71px;
+	position: fixed;
+	bottom: 69px;
+	right: 0;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.share .socnetwork{
+	margin-top: 6px;
+}
+
+.facebook{
+	background-position: 0 0;
+}
+.twitter{
+	background-position: -24px 0;
+}
+.instagram{
+	background-position: -46px 0;
+
+}
+.icon{
+	background-repeat:no-repeat;
+	background-image: url("img/sprite.png");
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+	margin:0 2px;
+}
