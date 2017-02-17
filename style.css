@@ -84,6 +84,9 @@ body{
 	font-size: 12px;
 	line-height: 14px;
 }
+.first .context p:first-child{
+	margin-bottom: 16px;
+}
 .first .context .rigth{
 	float: right;
 	margin-right: 0;
